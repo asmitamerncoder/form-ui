@@ -1,0 +1,91 @@
+@media screen {
+  
+
+body{
+  background-color: #D1BB9E;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+    
+}
+
+.form-wrapper{
+  width: 400px;
+  height: 80%;
+  border-radius: 5px;
+  background-color: #A79277;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+form{
+  display: flex ;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 10px;
+}
+
+.sign-up-icon-wrapper{
+  display: flex ;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.custom-Textfield .MuiOutlinedInput-root{
+  width: 350px;  
+  
+}
+
+
+.custom-Textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(247, 247, 249);
+  color:rgb(247, 247, 249) ; 
+}
+
+.custom-Textfield .MuiInputLabel-root,
+.custom-Textfield .Mui-focused.MuiInputLabel-root {
+  color: rgb(255, 255, 255); 
+  font-size: small;
+  
+}
+
+.custom-Textfield .MuiSelect-select.MuiSelect-select {
+  font-size: small;
+}
+
+.custom-Textfield input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #FFF2E1 outset; 
+  border-radius: 5px;
+  margin: 8px;
+  height: 15px;
+   
+}
+
+
+.submit-btn,.submit-btn:active{
+  background-color: black !important;
+  text-transform: capitalize !important;
+  width: 100px;
+  color: white !important;
+  border-color: white !important;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .form-wrapper {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+  }
+
+  .custom-Textfield .MuiOutlinedInput-root {
+    width: 95%;  
+  }
+}
